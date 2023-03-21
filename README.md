@@ -10,4 +10,6 @@ To install the App, just download and run npm i and npm start
 ## Links 
 Github: https://github.com/danielgregoire34/gregoire-daniel-module21
 
- Heroku:
+Heroku:https://git.heroku.com/gregoire-daniel-module21.git
+
+Video:https://drive.google.com/file/d/1k6rudatiIDDGhmB0Xif-RF2EstBNeDoo/view?usp=sharing
