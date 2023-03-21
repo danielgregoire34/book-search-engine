@@ -9,8 +9,8 @@ import {
   ApolloProvider,
   createHttpLink,
 } from '@apollo/client';
-import SavedBooks from './pages/SavedBooks';
-import SearchBooks from './pages/SearchBooks';
+import { setContext } from '@apollo/client/link/context';
+
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
