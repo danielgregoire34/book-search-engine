@@ -1,4 +1,4 @@
-# Module 21 MERN Challenge: Book Search Engin
+# Module 21 MERN Challenge: Book Search Engine
 
 ## Summary 
 This application is a book search engine.
