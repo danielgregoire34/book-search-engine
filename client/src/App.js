@@ -39,8 +39,9 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <ApolloProvider client = {client}>
+    <ApolloProvider client = {client} >
     <Router>
+    <style>{'body { background-color: grey; }'}</style>
       <>
         <Navbar />
         <Routes>

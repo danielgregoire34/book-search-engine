@@ -104,7 +104,7 @@ const SearchBooks = () => {
                 />
               </Col>
               <Col xs={12} md={4}>
-                <Button type='submit' variant='success' size='lg'>
+                <Button type='submit' variant='warning' size='lg'>
                   Submit Search
                 </Button>
               </Col>
@@ -113,7 +113,7 @@ const SearchBooks = () => {
         </Container>
       </Jumbotron>
 
-      <Container>
+      <Container >
         <h2>
           {searchedBooks.length
             ? `Viewing ${searchedBooks.length} results:`
