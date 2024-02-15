@@ -81,11 +81,16 @@ const SearchBooks = () => {
     }
   };
 
+
+
   return (
     <>
-      <Jumbotron fluid className='text-light bg-dark'>
+      <Jumbotron fluid className="jumbro" 
+      style={{
+        backgroundColor:"rgba(0, 128, 0, 0.3)"
+      }}>
         <Container>
-          <h1>Search for Books!</h1>
+          <h1>Type in the Book you want to Search For</h1>
           <Form onSubmit={handleFormSubmit}>
             <Form.Row>
               <Col xs={12} md={8}>
